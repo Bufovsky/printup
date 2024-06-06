@@ -1,0 +1,21 @@
+{
+    "name": "printup/recruit",
+    "description": "Recruitment tasks for the printup company",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Printup\\Recruit\\": "src/",
+            "Printup\\Recruit\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksander Podsiadło",
+            "email": "bufostudio@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
